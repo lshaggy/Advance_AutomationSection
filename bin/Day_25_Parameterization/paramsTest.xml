@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="parametersSuite" parallel="tests" thread-count="2">
+
+
+	<test name="paramstest1">
+ 	    <parameter name="browser" value="firefox" />
+		<parameter name="url" value="https://opensource-demo.orangehrmlive.com/" />
+		
+		<classes>
+			<class name="Day_25_Parameterization.ParametersExample" />
+			</classes>
+	</test>
+
+
+	<test name="paramstest2">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url"
+			value="https://opensource-demo.orangehrmlive.com/" />
+		<classes>
+			<class name="Day_25_Parameterization.ParametersExample" />
+		</classes>
+	</test>
+
+<!--  	<test name="paramstest3">
+		<parameter name="browser" value="ie" />
+		<parameter name="url"
+			value="https://opensource-demo.orangehrmlive.com/" />
+		<classes>
+			<class name="parameterization.ParametersExample" />
+		</classes>
+	</test>    -->
+
+</suite>

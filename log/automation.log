@@ -1,0 +1,11 @@
+2019-06-04 11:14:09,970 DEBUG [main] LoggingDemo:32 - *********** driver is initiating ********************
+2019-06-04 11:14:13,788  INFO [main] LoggingDemo:47 - ****** URL is opened successfully.****
+2019-06-04 11:14:13,788 DEBUG [main] LoggingDemo:48 - ****** Home page is displayed ********************
+2019-06-04 11:14:13,813  INFO [main] LoggingDemo:60 - ******* Login test started ************
+2019-06-04 11:14:13,814  INFO [main] LoggingDemo:61 - ******* Providing user login details************
+2019-06-04 11:14:13,955 DEBUG [main] LoggingDemo:65 - ****** Entering user name ********************
+2019-06-04 11:14:14,075 DEBUG [main] LoggingDemo:69 - ****** Entering password ********************
+2019-06-04 11:14:14,824 DEBUG [main] LoggingDemo:73 - ****** clicking on Submit ********************
+2019-06-04 11:14:14,825  INFO [main] LoggingDemo:75 - ******* Login validation started************
+2019-06-04 11:14:14,835  INFO [main] LoggingDemo:79 - ********* Login is succesfull***************
+2019-06-04 11:14:14,840  INFO [main] LoggingDemo:91 - ********** test case execution is completed ******************

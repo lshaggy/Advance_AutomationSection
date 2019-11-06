@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-04T18:14:09Z" name="Default suite" finished-at="2019-06-04T18:14:17Z" duration-ms="7290">
+    <groups>
+    </groups>
+    <test started-at="2019-06-04T18:14:09Z" name="Default test" finished-at="2019-06-04T18:14:17Z" duration-ms="7290">
+      <class name="Log4jLogging.LoggingDemo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Log4jLogging.LoggingDemo@707194ba]" started-at="2019-06-04T18:14:09Z" name="setup" finished-at="2019-06-04T18:14:13Z" duration-ms="4000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:Log4jLogging.LoggingDemo@707194ba]" started-at="2019-06-04T18:14:13Z" name="login" finished-at="2019-06-04T18:14:14Z" duration-ms="1032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Log4jLogging.LoggingDemo@707194ba]" started-at="2019-06-04T18:14:14Z" name="tearDown" finished-at="2019-06-04T18:14:17Z" duration-ms="2220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Log4jLogging.LoggingDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="extentreport suite">
+
+<listeners>
+	<listener class-name="Day_26_extentReports.Reporting" />
+</listeners>
+
+<test name="Logintest">
+		<classes>
+			<class name="Day_26_extentReports.LoginTest"></class>
+					
+		</classes>
+	</test>
+
+</suite>

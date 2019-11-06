@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [parametersSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="paramstest1(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/"/>
+    <classes>
+      <class name="Day_25_Parameterization.ParametersExample">
+        <methods>
+          <include name="logoTest"/>
+          <include name="setup"/>
+          <include name="homePageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Day_25_Parameterization.ParametersExample -->
+    </classes>
+  </test> <!-- paramstest1(failed) -->
+</suite> <!-- Failed suite [parametersSuite] -->
